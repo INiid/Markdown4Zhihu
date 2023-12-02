@@ -1,7 +1,7 @@
 ---
 alias: Badrinarayanan2017
-tags: è½¬ç½®å�·ç§¯ pool_indices
-rating: â­�
+tags: 转置卷积 pool_indices
+rating: ⭐
 share: false
 ptype: article
 ---
@@ -13,9 +13,9 @@ ptype: article
 
 ***
 
-### åˆ�è¯»å�°è±¡
+### 初读印象
 
-comment::  (SegNet)encoderç”¨VGGçš„å‰�13å±‚ï¼Œdecoderå¯¹åº”VGGçš„13å±‚ï¼Œæ¯�æ¬¡ä¸Šé‡‡æ ·ç”¨pool indices 
+comment::  (SegNet)encoder用VGG的前13层，decoder对应VGG的13层，每次上采样用pool indices 
 
 ![Pasted image 20220807234732](https://raw.githubusercontent.com/INiid/Markdown4Zhihu/master/Data/@Badrinarayanan2017/Pastedimage20220807234732.png)
 
